@@ -1,5 +1,7 @@
+import DisplaySection from "./components/DisplaySection";
 import Jumbotron from "./components/Jumbotron";
 import Navigation from "./components/Navigation";
+import SoundSection from "./components/SoundSection";
 
 function App() {
 
@@ -7,6 +9,8 @@ function App() {
     <div className="App">
       <Navigation />
       <Jumbotron />
+      <SoundSection />
+      <DisplaySection />
     </div>
   );
 }

@@ -13,7 +13,7 @@ const Navigation = () => {
             <img src={Logo} alt="Apple-logo" />
           </li>
           {Links.map((link) => (
-            <li className={link.className}>{link.title}</li>
+            <li className={link.className} key={link.id}>{link.title}</li>
           ))}
           <li>
             <img src={Search} alt="Search-logo" />
