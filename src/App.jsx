@@ -2,8 +2,9 @@ import DisplaySection from "./components/DisplaySection";
 import Jumbotron from "./components/Jumbotron";
 import Navigation from "./components/Navigation";
 import SoundSection from "./components/SoundSection";
+import WebgiViewer from "./components/WebgiViewer";
 
-function App() {
+const App = () => {
 
   return (
     <div className="App">
@@ -11,6 +12,7 @@ function App() {
       <Jumbotron />
       <SoundSection />
       <DisplaySection />
+      <WebgiViewer />
     </div>
   );
 }
